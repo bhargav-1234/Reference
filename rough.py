@@ -155,7 +155,73 @@ print(thisList)
 del thisList[2]
 print(thisList)
 
-for x in thisList:
+for x in thisList: 
     print(x)
 
 
+# Nested functions
+# num = input("enter  a whole positive number: ")
+# num = float(num)
+# num = abs(num)
+# num = round(num)
+# print(round(abs(float(input("enter a whole positive number: ")))))
+
+# scope
+
+name = "honey"      #global scope
+def display_name():
+    name ="Bhargav"  #local scope
+    print(name)
+display_name()
+print(name)
+
+
+# args
+# def add(num1,num2):
+#     sum= num1+num2
+#     print(sum)
+
+# add(1,2)
+
+# def add(*args):
+#     sum = 0
+#     for i in args:
+#         sum +=i
+#     return sum
+# print(add(2,4,3,5))
+
+# kwargs
+
+# def hello(**names):
+#     print("hello",end=" ")
+#     for key,Value in names.items():
+#         print(Value,end=" ")
+# hello(first="Bhargav",last="honey")
+
+
+# exceptions
+# try:
+#    numerator = int(input("Enter a number to divide: "))
+#    denominator = int(input("Enter a number to divide: "))
+#    result = numerator / denominator
+# # print(result)
+# except ZeroDivisionError as e:
+#   print(e)
+#   print("you can't divided by zero idiot")
+# except ValueError as e:
+#     print(e)
+#     print("enter only numbers please")
+# except Exception as e:
+#     print(e)
+#     print ("something went wrong")
+
+# else:
+#     print(result)
+
+# ***** open & read file by using python
+# try:
+#    with open("C:\Users\naget\OneDrive\Documents\test3.sql") as file:
+#         print(file.read())
+        
+# except SyntaxError:
+#     print("Someething went wrong")
