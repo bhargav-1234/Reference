@@ -242,16 +242,16 @@
 #    print(source + " not found")
 
 #  to remove file 
-import os
+# import os
 
-path ="test.txt"
-try:
-   os.remove(path)
-   os.rmdir(path)
-except FileNotFoundError:
-   print("that folder was not found")
-except PermissionError:
-   print("you don't have permit to del that")
-else:
-   print(path + " was deleted")
+# path ="test.txt"
+# try:
+#    os.remove(path)
+#    os.rmdir(path)
+# except FileNotFoundError:
+#    print("that folder was not found")
+# except PermissionError:
+#    print("you don't have permit to del that")
+# else:
+#    print(path + " was deleted")
 
