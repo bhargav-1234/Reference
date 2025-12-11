@@ -210,7 +210,7 @@
 #   print("you can't divided by zero idiot")
 # except ValueError as e:
 #     print(e)
-#     print("enter only numbers please")
+#     print("enter only numbers please")cd
 # except Exception as e:
 #     print(e)
 #     print ("something went wrong")
@@ -241,6 +241,7 @@
 # except FileNotFoundError:
 #    print(source + " not found")
 
+
 #  to remove file 
 # import os
 
@@ -254,4 +255,3 @@
 #    print("you don't have permit to del that")
 # else:
 #    print(path + " was deleted")
-
